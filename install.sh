@@ -24,8 +24,8 @@ chown -R nobody /var/lib/squid/
 chown -R proxy:proxy /var/lib/squid/ssl_db/
 chmod -R 777 /var/lib/squid/ssl_db/
  
-mkdir /etc/squid/ssl_cert
-cd /etc/squid/ssl_cert
+mkdir /etc/squid/ssl_certs
+cd /etc/squid/ssl_certs
 
 chmod +x /etc/squid/storeid.pl
 chmod +x /etc/squid
